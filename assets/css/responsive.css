@@ -1,0 +1,215 @@
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .footer__content h1 {
+        font-size: 80px;
+    }
+    
+    .footer__content {
+        margin: 80px 0;
+    }
+    
+    .service-text h1 {
+        font-size: 60px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root{
+        --f18 : 18px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 26px;
+        --f30 : 28px;
+        --f32 : 30px;
+        --f36 : 32px;
+        --f40 : 36px;
+        --f48 : 40px;
+      
+      }
+      .buy__blk p {
+        min-height: 210px;
+    }
+    .footer__content h1 {
+        font-size: 66px;
+    }
+    
+    .footer__content {
+        margin: 60px 0;
+    }
+
+.footer__content .grp__btns {
+    margin-top: 20px;
+}
+    
+    .service-text h1 {
+        font-size: 60px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f18 : 18px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 26px;
+        --f30 : 28px;
+        --f32 : 30px;
+        --f36 : 32px;
+        --f40 : 36px;
+        --f48 : 40px;
+      
+      }
+      .buy__blk p {
+        min-height: 180px;
+    }
+    .footer__content h1 {
+        font-size: 66px;
+    }
+    
+    .footer__content {
+        margin: 60px 0;
+    }
+
+.footer__content .grp__btns {
+    margin-top: 20px;
+}
+    
+    .service-text h1 {
+        font-size: 42px;
+    }
+    .contact__content {
+        max-width: 650px;
+        margin: 100px auto;
+    }
+    
+    .service-text {
+        padding: 30px 0 25px;
+    }
+    
+    .buy__blk {
+        margin-bottom: 36px;
+    }
+    .smoking-img {
+        text-align: center;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f18 : 18px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 26px;
+        --f30 : 28px;
+        --f32 : 30px;
+        --f36 : 32px;
+        --f40 : 36px;
+        --f48 : 40px;
+      
+      }
+      .buy__blk p {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+    .footer__content h1 {
+        font-size: 42px;
+    }
+    
+    .footer__content {
+        margin: 60px 0;
+    }
+
+.footer__content .grp__btns {
+    margin-top: 20px;
+}
+    
+    .service-text h1 {
+        font-size: 24px;
+    }
+    .contact__content {
+        max-width: 650px;
+        margin: 100px auto;
+    }
+
+.contact__content h2 {
+    font-size: 26px;
+}
+    
+    .service-text {
+        padding: 18px 0 16px;
+        border-width: 3px;
+    }
+
+.sevice-area {
+    border-width: 3px;
+}
+    
+    .buy__blk {
+        margin-bottom: 36px;
+    }
+    .smoking-img {
+        text-align: center;
+    }
+    .contact__content span {
+        font-size: 12px;
+    }
+    
+    .grp__btns button {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 3px #000;
+        border: 2px solid #000;
+    }
+    
+    .buy__btn {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+    
+    .header-area {
+        padding: 20px 0;
+    }
+
+.mobile-menu {
+    height: calc(100vh - 85px);
+    top: 85px;
+}
+
+
+    
+    .grp__btns {
+        gap: 10px;
+    }
+    
+    .marquee {
+        gap: 30px;
+    }
+    
+    .marquee span {
+        font-size: 20px;
+    }
+    
+    .buy_title {
+        margin: 30px 0;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.header-area .container {
+    width: 100% !important;
+}
+}
